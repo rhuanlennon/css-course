@@ -1,0 +1,22 @@
+/* o .special é um seletor que no html todas as classes que tiverem o .special utilizaram desse estilo  */
+.special {
+    color: orange;
+    font-weight: bold;
+}
+li.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+  }
+
+h1 + p {
+    font-size: 200%;
+  }
+
+/* Nesse caso só aplica as propriedades se o p estiver dentro da tag h1 */
+p + span {
+    color: red;
+}
